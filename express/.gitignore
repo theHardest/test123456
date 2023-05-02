@@ -1,0 +1,4 @@
+/node_modules
+.env
+/vue/node_modules
+/vue/.env

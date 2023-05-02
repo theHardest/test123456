@@ -1,0 +1,18 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["prettier", "eslint:recommended", "plugin:node/recommended"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "node/no-unsupported-features/es-syntax": "off",
+    "node/no-unpublished-require": "off",
+    "no-unused-vars": "warn"
+  }
+}

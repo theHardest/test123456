@@ -1,0 +1,5 @@
+*/node_modules
+express/public/
+laravel/vendor
+laravel/public/
+laravel-jwt/*
